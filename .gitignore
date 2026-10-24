@@ -1,0 +1,31 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Java / Spring Boot
+**/target/
+**/bin/
+**/.classpath
+**/.project
+**/.settings/
+**/.metadata/
+**/.springBeans
+**/.sts4-cache
+**/*.class
+
+# React / Node.js
+**/node_modules/
+**/dist/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
